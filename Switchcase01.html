@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var browse = prompt("Enter your browse")
+    switch (browse) {
+        case 'Edge':
+            alert("You're got Edge")
+            break;
+        //khi ra kết quả đúng, break sẽ dừng chương trình, nếu thiếu break sẽ in ra
+        //kết quả đó và những kết quả phía sau những kết quả đó mặc dù phi logic
+        case 'Chrome' || 'Firefox' || 'Opera' || 'Safari':
+            alert('Okay we support these browsers too')
+            break;
+        default :
+            alert('We hope that this page looks ok!')
+    }
+</script>
+</body>
+</html>
